@@ -13,14 +13,14 @@ gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
 
-gem 'sqlite3'
+gem 'sqlite3-ruby', :require => 'sqlite3'
 
-source :gemcutter
-gem 'rails'
+#source :gemcutter
+#gem 'rails'
 
-group :development, :test do
-  gem 'sqlite3-ruby', :require => 'sqlite3'
-end
+#group :development, :test do
+
+#end
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 group :development do
